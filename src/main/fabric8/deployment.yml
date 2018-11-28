@@ -29,3 +29,6 @@ spec:
             requests:
               cpu: 100m
               memory: 500Mi
+          env:
+          - name: AB_JOLOKIA_OFF
+            value: 'true'
